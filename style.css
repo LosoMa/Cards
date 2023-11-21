@@ -1,0 +1,44 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 1rem;
+
+}
+.card p{
+    text-align: justify;
+
+}
+.card h3{
+    font-variant: small-caps;
+}
+.card a{
+    background-color: blueviolet;
+    color: white;
+    padding: .3rem 1rem; 
+    display: inline-block;
+    width: 6rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.card p::first-letter{
+    
+    font-weight: bold;
+    font-size: 2rem;
+    color: hsl(342, 87%, 33%);
+    font-style: italic;
+}
